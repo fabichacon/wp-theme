@@ -1,0 +1,18 @@
+/*begin efecto subrayado*/
+a {
+    text-decoration: none !important;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+a:hover, a:focus {
+    background-size: 100% 1px;
+}
+
+.btn:hover, .btn-primary:focus {
+    background-size: 100% 0px; 
+}
+/*end efecto subrayado*/
